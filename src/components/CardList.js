@@ -3,6 +3,10 @@ import Card from './Card';
 // import { robots } from './robots';
 
 const CardList = ({ robots }) => {
+  // check if errorboundry works
+  // if (true) {
+  //   throw new Error('NOOOO!');
+  // }
   return (
     <div>
       {robots.map((user, index) => {
